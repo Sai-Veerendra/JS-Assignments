@@ -1,6 +1,6 @@
 # JS-Assignments 🚀
 
-This repository contains practice sets for learning and improving JavaScript fundamentals. It includes exercises focusing on **functions** and **string/array operations**—great for beginners or those revising core concepts.
+This repository contains practice sets for learning and improving JavaScript fundamentals. It includes exercises focusing on **functions**, **string/array operations**, **DOM basics**, and **event handling**—great for beginners or those revising core concepts.
 
 ---
 
@@ -35,5 +35,34 @@ String and array manipulation exercises:
 - Extract elements from index 1 to 3 in `[10, 20, 30, 40, 50]`.
 - Remove spaces from `"H e l l o"` using `split()` and `join()`.
 - Replace `'Python'` with `'JavaScript'` in `['HTML', 'CSS', 'Python']`.
+
+---
+
+### 🔹 JS Basic DOM Set
+Beginner-level DOM interaction exercises:
+
+1. Create a button labeled **"Click Me"**. When clicked, show an alert: *"You clicked the button!"*.
+2. Prompt user for **first and last name**, then alert the full name.
+3. Automatically **change background color** of the page on reload.
+4. Using **external JavaScript**, change the text color of an element every time a button is clicked. The color is picked randomly from a predefined list.
+5. Create a button that alerts: *"I am clicked!"* on click.
+
+📝 **Practice Question (Extra):**
+Includes tasks using `prompt`, `alert`, `confirm`, `document.write()`, and more, such as:
+- Greeting the user.
+- Exit confirmation.
+- Password validation (`12345` = access).
+- Addition of two numbers via user input.
+
+---
+
+### 🔹 JS Event Handling Set
+Exercises focused on JavaScript DOM events:
+
+1. Toggle paragraph visibility when a button is clicked. Also updates the button label accordingly.
+2. Change background color of a `div` to light blue on mouseover and revert on mouseout.
+3. Button click counter — displays: *"You clicked X times"*.
+4. Show/hide password using a checkbox toggle.
+5. Real-time text preview: updates a `div` live as the user types in an input box.
 
 ---
