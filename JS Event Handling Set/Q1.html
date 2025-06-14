@@ -1,0 +1,29 @@
+<!-- Create a button and paragraph. When clicked on button, it will show paragraph and 
+button text should change, upon clicking again, it should hide paragraph. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn">Click me</button>
+    <p id="hiddenPara" style="display: none">Hi! Have a good day!</p>
+
+    <script>
+      let button = document.getElementById("btn");
+      let para = document.getElementById("hiddenPara");
+      button.onclick = () => {
+        if (para.style.display === "none") {
+          para.style.display = "block";
+          button.textContent = "Hide the content";
+        } else {
+          para.style.display = "none";
+          button.textContent = "See the content";
+        }
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!-- Create a text input box and a div below it. As the user types, the div should display the same text in real time. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="textBox" placeholder="Enter your message" /><br />
+    <div id="div"></div>
+
+    <script>
+      let user = document.getElementById("textBox");
+      let div = document.getElementById("div");
+
+      user.addEventListener("input", () => {
+        div.textContent = user.value;
+      });
+    </script>
+  </body>
+</html>

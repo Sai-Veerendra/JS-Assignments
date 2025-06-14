@@ -1,0 +1,21 @@
+<!-- Create a button and upon clicking it should alert 'I am clicked' -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<input>
+    <h2 id="text1"> Click Here </h2>
+    <input type="button" value="Submit" onClick="changeFont()"></input>
+
+    <script>
+        function changeFont(){
+            var textValue = document.getElementById("text1");
+            textValue.textContent = "I am clicked";
+        }
+    </script>
+
+</body>
+</html>

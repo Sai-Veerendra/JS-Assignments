@@ -1,0 +1,26 @@
+<!-- Ask user for first name and last name and alert full name -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <input placeholder="First Name" type="text" id="fName" required /> <br />
+      <input placeholder="Last Name" type="text" id="lName" required />
+      <br /><br />
+      <input type="submit" onClick="showName()" value="Submit" />
+    </form>
+
+    <script>
+      function showName() {
+        const fName = document.getElementById("fName").value;
+        const lName = document.getElementById("lName").value;
+        alert(`Name is: ${fName} ${lName}`);
+      }
+    </script>
+  </body>
+</html>

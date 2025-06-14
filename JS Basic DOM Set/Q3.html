@@ -1,0 +1,19 @@
+<!-- Change the Background color of the page when reload -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body onload="changeBg()">
+    <script>
+      function changeBg() {
+        const array = ["yellow", "red", "pink", "blue"];
+        const random = Math.floor(Math.random() * array.length);
+        document.body.style.backgroundColor = array[random];
+      }
+    </script>
+  </body>
+</html>
